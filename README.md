@@ -41,7 +41,7 @@ All data should be downloaded to a `data/` directory in the root directory of th
 
 The easiest way to download the data is to run the provided script `tools/download.sh` from the repository root. If the script does not work, it should be easy to examine the script and modify the steps outlined in it according to your needs. Then run `tools/process.sh` from the repository root to process the data to the correct format.
 
-Our model is required to apply a Mixture of Detection features of Faster R-CNN and FPN as input image features to reach best performance, the image features can be found in [here](https://vision.aioz.io/lib/a5123ff4-398d-45b1-82e2-6bf4c9ff6258/file/dataset/MoD.zip?dl=1) which should be extracted and placed in `data/MoD/`.
+Our model is required to apply a Mixture of Detection features of Faster R-CNN and FPN as input image features to reach best performance, the image features can be found in [here](https://vision.aioz.io/d/cba41d0bdacc43ee9fe1/files/?p=/MoD.zip&dl=1) which should be extracted and placed in `data/MoD/`.
 Our implementation also uses the pretrained features from [bottom-up-attention](https://github.com/hengyuan-hu/bottom-up-attention-vqa).
 The introducted image features have 10-100 adaptive features per image.
 
