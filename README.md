@@ -85,7 +85,14 @@ The result json file will be found in the directory `results/`.
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
 
 ```
-Updating
+@misc{do2020multiple,
+      title={Multiple interaction learning with question-type prior knowledge for constraining answer search space in visual question answering},
+      author={Tuong Do and Binh X. Nguyen and Huy Tran and Erman Tjiputra and Quang D. Tran and Thanh-Toan Do},
+      year={2020},
+      eprint={2009.11118},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ### License
